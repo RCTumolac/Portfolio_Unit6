@@ -9,7 +9,10 @@
     }
     h1 {
       font-size: 70px;
-    }
+      font-size: 36px;
+        padding: 5px;
+      }
+    
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
@@ -29,12 +32,11 @@
       margin: 0 auto;
     }
     @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
       li {
         padding: 5px;
         display: block;
       }
+    }
+    body{
+      font-family: "Comic Sans MS"; 
     }
